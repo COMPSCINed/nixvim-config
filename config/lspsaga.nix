@@ -16,8 +16,8 @@
         open_cmd =
           if pkgs.stdenv.hostPlatform.isDarwin
           then "open"
-          else "floorp";
-        open_link = "<leader>gx";
+          else "xdg-open";
+        open_link = "gx";
       };
       outline = {
         auto_close = true;
